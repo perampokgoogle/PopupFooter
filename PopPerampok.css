@@ -1,0 +1,91 @@
+/* Simple */
+#PerampokGoogle_fanpageslider_box {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #ccc;
+    bottom: -500px;
+    position: fixed;
+    right: 30px;
+    min-height:140px;
+    z-index: 900000;
+    width: 320px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding-bottom: 11px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.45);
+    -moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.45);
+    box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.45);
+}
+
+#PerampokGoogle_fanpageslider_box_mid{
+    padding:10px;
+    
+}
+
+#PerampokGoogle_fanpageslider_box_head {
+    line-height: 0px;
+    padding: 3px;
+    background: #F3F3F3;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.PerampokGoogle_fanpageslider_customtext {
+    margin-bottom: 7px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#PerampokGoogle_fanpageslider_box img.PerampokGoogle_fps_close:hover {
+    background: #DADADA;
+}
+#PerampokGoogle_fanpageslider_box img.PerampokGoogle_fps_close {
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.PerampokGoogle_ani_handel_simple.PerampokGoogle_ani_bl,
+.PerampokGoogle_ani_handel_simple.PerampokGoogle_ani_bls,
+.PerampokGoogle_ani_handel_simple.PerampokGoogle_ani_br,
+.PerampokGoogle_ani_handel_simple.PerampokGoogle_ani_brs{
+    -webkit-border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.PerampokGoogle_ani_handel_simple.PerampokGoogle_ani_bl #PerampokGoogle_fanpageslider_box_head,
+.PerampokGoogle_ani_handel_simple.PerampokGoogle_ani_sl #PerampokGoogle_fanpageslider_box_head,
+.PerampokGoogle_ani_handel_simple.PerampokGoogle_ani_bls #PerampokGoogle_fanpageslider_box_head,
+.PerampokGoogle_ani_handel_simple.PerampokGoogle_ani_sls #PerampokGoogle_fanpageslider_box_head{
+    text-align: right;
+}
+
+.PerampokGoogle_ani_handel_simple.PerampokGoogle_ani_sl,
+.PerampokGoogle_ani_handel_simple.PerampokGoogle_ani_sls,
+.PerampokGoogle_ani_handel_simple.PerampokGoogle_ani_sl #PerampokGoogle_fanpageslider_box_head,
+.PerampokGoogle_ani_handel_simple.PerampokGoogle_ani_sls #PerampokGoogle_fanpageslider_box_head{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.PerampokGoogle_ani_handel_simple.PerampokGoogle_ani_sr,
+.PerampokGoogle_ani_handel_simple.PerampokGoogle_ani_srs,
+.PerampokGoogle_ani_handel_simple.PerampokGoogle_ani_sr #PerampokGoogle_fanpageslider_box_head,
+.PerampokGoogle_ani_handel_simple.PerampokGoogle_ani_srs #PerampokGoogle_fanpageslider_box_head{
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
